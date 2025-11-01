@@ -26,10 +26,10 @@ This is a sample expected repository structure.
 ├── output
 │   ├── evaluation
 │   │   ├── ...
-│   │   └── xxx_yyy.txt
+│   │   └── xxx_yyy.tsv
 │   └── prediction
 │       ├── ...
-│       └── xxx_yyy.txt
+│       └── xxx_yyy.tsv
 ├── src
 │   ├── ...
 │   └── example_rag.py
@@ -111,10 +111,10 @@ Develop one no-retrieval QA system and RAG-based QA systems. Make sure to tune y
 
 ### Deliverable: 
 * `.py` file(s) under `src` folder and execution commands  
-* `<retriever/None>_<generator>.txt` for each system prediction (at least 5 files) under `output/prediction`
+* `<retriever/None>_<generator>.tsv` for each system prediction (at least 5 files) under `output/prediction`
 
 ### Format: 
-`<retriever/None>_<generator>.txt`
+`<retriever/None>_<generator>.tsv`
 ```
 <prediction>\t<additional info: optional>
 ```
@@ -131,10 +131,10 @@ Evaluate the quality of the generated output.
 
 ### Deliverable: 
 * `.py` file under `src` folder and execution commands
-* `<retriever/None>_<generator>.txt` for each eval result under `output/evaluation`
+* `<retriever/None>_<generator>.tsv` for each eval result under `output/evaluation`
 
 ### Format: 
-`<retriever/None>_<generator>.txt` 
+`<retriever/None>_<generator>.tsv` 
 ```
 <score by metric 1>\t<score by metric 2>\t...
 ```
