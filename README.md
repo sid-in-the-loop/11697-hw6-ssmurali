@@ -83,7 +83,7 @@ question.tsv (one question per line)
 ```
 <question 1>\t<question type>
 ```
-answer.txt (comma-separated answers, each line for the corresponding question)
+answer.tsv (comma-separated answers, each line for the corresponding question)
 ```
 <anwer 1-1>\t<answer 1-2>\t...
 ```
