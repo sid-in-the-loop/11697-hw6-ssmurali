@@ -18,6 +18,9 @@ This is a sample expected repository structure.
 11697-hw6-<your andrewID>
 ├── README.md
 ├── data
+│   ├── corpus/
+│   │   ├── ...
+│   │   └── a.<txt/pdf/md/etc>
 │   ├── answer.tsv
 │   ├── evidence.tsv
 │   └── question.tsv
@@ -76,7 +79,7 @@ You can manually create all of them or synthesize them with LLMs.
 * Create a diverse set of questions so that they need as many distinct documents as possible in your document collection.
 
 ### Deliverable: 
-Create a data folder and create files, `question.tsv`, `answer.tsv`, `evidence.tsv`. 
+Create a data folder, `data`, and put the following files, `data/question.tsv`, `data/answer.tsv`, `data/evidence.tsv`, and your supporting documents under `data/corpus/*`
 
 ### Format: 
 question.tsv (one question per line)
@@ -91,6 +94,7 @@ evidence.tsv
 ```
 <original url 1>\t<filename 1>
 ```
+Files under `data/corpus/` can be of any type, e.g., `.txt`, `.pdf`, `.md`, etc. 
 
 ### Tips: 
 * Draft them in Excel/spreadsheet and download as `.tsv`.
