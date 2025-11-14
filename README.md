@@ -96,6 +96,8 @@ evidence.tsv
 ```
 Files under `data/corpus/` can be of any type, e.g., `.txt`, `.pdf`, `.md`, etc. 
 
+Note that the three TSV files maintain row-level correspondence: the entry at row i in file A corresponds to the entries at row i in files B and C. All files must have the same number of rows.
+
 ### Tips: 
 * Draft them in Excel/spreadsheet and download as `.tsv`.
 
