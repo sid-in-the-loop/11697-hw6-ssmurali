@@ -185,7 +185,7 @@ N/A (As long as we understand how to replicate, that is ok)
 Describe your work in a report.
 
 ### Format & Requirements
-* PDF
+* PDF: `HW6_Report_<your_andrew_id>.pdf`
 * Use [ARR Format](https://github.com/acl-org/acl-style-files)
 * 4-8 pages \+ unlimited reference & appendix
 * Make sure to have the following sections:
