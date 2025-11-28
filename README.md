@@ -207,13 +207,14 @@ Submit your GitHub repo URL and your report on Canvas.
   * QA/Evidence: 1  
   * system: 1  
   * evaluation: 1  
-* Report: 6 pts  
-  * Sec 1 Introduction (incl. Topic and your GitHub repo): 1  
+* Report: 6 pts
+  * Sec 1 Introduction (incl. Topic and your GitHub repo): 1
   * Sec 2 Dataset (incl. QA/Document): 1  
   * Sec 3 Method (e.g., Retrieval+generator): 1  
   * Sec 4 Experiment (incl. Eval): 1
   * Sec 5 Result & discussion: 1  
-  * Sec 6 Qualitative error analysis: 1  
+  * Sec 6 Qualitative error analysis: 1
+  * (Abstract is recommended, but optional)
 * Advanced point: 5 pts (subjective & relative)  
   * Impressing to us: 5  
   * Reasonable amount of additional work: 3  
