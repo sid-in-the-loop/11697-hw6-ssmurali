@@ -92,7 +92,7 @@ answer.tsv (tab-separated answers, each line for the corresponding question)
 ```
 evidence.tsv
 ```
-<original url 1>\t<filename 1>
+<original source (e.g., URL) 1>\t<filename 1>
 ```
 Files under `data/corpus/` can be of any type, e.g., `.txt`, `.pdf`, `.md`, etc. 
 
