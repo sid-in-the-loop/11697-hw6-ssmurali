@@ -1,0 +1,122 @@
+[
+  {
+    "system": "500_80_rrf_qwen.tsv",
+    "total_questions": 102,
+    "error_counts": {
+      "CNF": 6,
+      "CNR": 0,
+      "ANF": 52,
+      "ANR": 6,
+      "CORRECT": 38,
+      "UNKNOWN": 0
+    },
+    "error_percentages": {
+      "CNF": 5.88235294117647,
+      "CNR": 0.0,
+      "ANF": 50.98039215686274,
+      "ANR": 5.88235294117647,
+      "CORRECT": 37.254901960784316,
+      "UNKNOWN": 0.0
+    }
+  },
+  {
+    "system": "500_80_sparse_qwen.tsv",
+    "total_questions": 102,
+    "error_counts": {
+      "CNF": 2,
+      "CNR": 2,
+      "ANF": 62,
+      "ANR": 6,
+      "CORRECT": 30,
+      "UNKNOWN": 0
+    },
+    "error_percentages": {
+      "CNF": 1.9607843137254901,
+      "CNR": 1.9607843137254901,
+      "ANF": 60.78431372549019,
+      "ANR": 5.88235294117647,
+      "CORRECT": 29.411764705882355,
+      "UNKNOWN": 0.0
+    }
+  },
+  {
+    "system": "1000_100_rrf_qwen.tsv",
+    "total_questions": 102,
+    "error_counts": {
+      "CNF": 4,
+      "CNR": 0,
+      "ANF": 54,
+      "ANR": 8,
+      "CORRECT": 36,
+      "UNKNOWN": 0
+    },
+    "error_percentages": {
+      "CNF": 3.9215686274509802,
+      "CNR": 0.0,
+      "ANF": 52.94117647058824,
+      "ANR": 7.8431372549019605,
+      "CORRECT": 35.294117647058826,
+      "UNKNOWN": 0.0
+    }
+  },
+  {
+    "system": "500_80_dense_qwen.tsv",
+    "total_questions": 102,
+    "error_counts": {
+      "CNF": 6,
+      "CNR": 1,
+      "ANF": 56,
+      "ANR": 6,
+      "CORRECT": 33,
+      "UNKNOWN": 0
+    },
+    "error_percentages": {
+      "CNF": 5.88235294117647,
+      "CNR": 0.9803921568627451,
+      "ANF": 54.90196078431373,
+      "ANR": 5.88235294117647,
+      "CORRECT": 32.35294117647059,
+      "UNKNOWN": 0.0
+    }
+  },
+  {
+    "system": "1000_100_sparse_qwen.tsv",
+    "total_questions": 102,
+    "error_counts": {
+      "CNF": 3,
+      "CNR": 1,
+      "ANF": 59,
+      "ANR": 7,
+      "CORRECT": 32,
+      "UNKNOWN": 0
+    },
+    "error_percentages": {
+      "CNF": 2.941176470588235,
+      "CNR": 0.9803921568627451,
+      "ANF": 57.84313725490197,
+      "ANR": 6.862745098039216,
+      "CORRECT": 31.372549019607842,
+      "UNKNOWN": 0.0
+    }
+  },
+  {
+    "system": "1000_100_dense_qwen.tsv",
+    "total_questions": 102,
+    "error_counts": {
+      "CNF": 7,
+      "CNR": 0,
+      "ANF": 53,
+      "ANR": 8,
+      "CORRECT": 34,
+      "UNKNOWN": 0
+    },
+    "error_percentages": {
+      "CNF": 6.862745098039216,
+      "CNR": 0.0,
+      "ANF": 51.9607843137255,
+      "ANR": 7.8431372549019605,
+      "CORRECT": 33.33333333333333,
+      "UNKNOWN": 0.0
+    }
+  }
+]

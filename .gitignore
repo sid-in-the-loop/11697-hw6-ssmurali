@@ -1,0 +1,19 @@
+# Ignore local virtual envs, caches, logs, and heavy artifacts
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+
+# Logs
+logs/
+
+# Data artifacts and embeddings
+data/db*
+data/db_*/
+output/**/ablation/
+

@@ -1,0 +1,54 @@
+Running error analysis for all 6 systems...
+Found 6 prediction files to analyze
+Analyzing: output/prediction/500_80_rrf_qwen.tsv
+Warning: Mismatch - 140 predictions, 102 references, 102 questions
+  Initializing RAG for CNF/CNR analysis (this may take a moment)...
+  ✅ RAG initialized, starting analysis...
+  ✅ Analyzed 102 questions
+  Error distribution: {'CNF': 3, 'CNR': 0, 'ANF': 74, 'ANR': 4, 'CORRECT': 21, 'UNKNOWN': 0}
+  Results written to: output/error_analysis/500_80_rrf_qwen_errors.tsv
+  Summary written to: output/error_analysis/500_80_rrf_qwen_errors_summary.json
+Analyzing: output/prediction/500_80_sparse_qwen.tsv
+Warning: Mismatch - 136 predictions, 102 references, 102 questions
+  Initializing RAG for CNF/CNR analysis (this may take a moment)...
+  ✅ RAG initialized, starting analysis...
+  ✅ Analyzed 102 questions
+  Error distribution: {'CNF': 2, 'CNR': 1, 'ANF': 81, 'ANR': 3, 'CORRECT': 15, 'UNKNOWN': 0}
+  Results written to: output/error_analysis/500_80_sparse_qwen_errors.tsv
+  Summary written to: output/error_analysis/500_80_sparse_qwen_errors_summary.json
+Analyzing: output/prediction/1000_100_rrf_qwen.tsv
+Warning: Mismatch - 164 predictions, 102 references, 102 questions
+  Initializing RAG for CNF/CNR analysis (this may take a moment)...
+  ✅ RAG initialized, starting analysis...
+  ✅ Analyzed 102 questions
+  Error distribution: {'CNF': 2, 'CNR': 0, 'ANF': 76, 'ANR': 4, 'CORRECT': 20, 'UNKNOWN': 0}
+  Results written to: output/error_analysis/1000_100_rrf_qwen_errors.tsv
+  Summary written to: output/error_analysis/1000_100_rrf_qwen_errors_summary.json
+Analyzing: output/prediction/500_80_dense_qwen.tsv
+Warning: Mismatch - 160 predictions, 102 references, 102 questions
+  Initializing RAG for CNF/CNR analysis (this may take a moment)...
+  ✅ RAG initialized, starting analysis...
+  ✅ Analyzed 102 questions
+  Error distribution: {'CNF': 3, 'CNR': 0, 'ANF': 77, 'ANR': 4, 'CORRECT': 18, 'UNKNOWN': 0}
+  Results written to: output/error_analysis/500_80_dense_qwen_errors.tsv
+  Summary written to: output/error_analysis/500_80_dense_qwen_errors_summary.json
+Analyzing: output/prediction/1000_100_sparse_qwen.tsv
+Warning: Mismatch - 176 predictions, 102 references, 102 questions
+  Initializing RAG for CNF/CNR analysis (this may take a moment)...
+  ✅ RAG initialized, starting analysis...
+  ✅ Analyzed 102 questions
+  Error distribution: {'CNF': 0, 'CNR': 0, 'ANF': 102, 'ANR': 0, 'CORRECT': 0, 'UNKNOWN': 0}
+  Results written to: output/error_analysis/1000_100_sparse_qwen_errors.tsv
+  Summary written to: output/error_analysis/1000_100_sparse_qwen_errors_summary.json
+Analyzing: output/prediction/1000_100_dense_qwen.tsv
+Warning: Mismatch - 167 predictions, 102 references, 102 questions
+  Initializing RAG for CNF/CNR analysis (this may take a moment)...
+  ✅ RAG initialized, starting analysis...
+  ✅ Analyzed 102 questions
+  Error distribution: {'CNF': 3, 'CNR': 0, 'ANF': 77, 'ANR': 4, 'CORRECT': 18, 'UNKNOWN': 0}
+  Results written to: output/error_analysis/1000_100_dense_qwen_errors.tsv
+  Summary written to: output/error_analysis/1000_100_dense_qwen_errors_summary.json
+
+✅ All analyses complete!
+Combined summary: output/error_analysis/all_systems_summary.json
+Error analysis complete!

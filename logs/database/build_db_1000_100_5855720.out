@@ -1,0 +1,3 @@
+Building database with chunk_size=1000, chunk_overlap=100...
+python src/rag_pipeline.py --mode embed --embedder azure --retriever dense --data_path documents_2.json --db_path data/db_azure_1000_100 --chunk_size 1000 --chunk_overlap 100
+Database build complete: data/db_azure_1000_100/
