@@ -1,29 +1,29 @@
-# 11697 HW6: Airline Policy RAG
+# 11697 HW6: RAG Pipeline (Clean, Runnable)
 
-Clean, runnable submission for airline baggage/policy QA (closed-book baseline, dense RAG, refined-summary variant). Only required code, data, and TSV outputs are kept.
+Minimal repo with required code/data/outputs. Prompts/plots/docs were removed.
 
 ## Layout
 ```
 README.md
 topic.txt
 data/
-  ├── question.tsv        # airline QA
+  ├── question.tsv
   ├── answer.tsv
   ├── evidence.tsv
-  ├── corpus/             # supporting docs (text)
-  ├── raw_corpus/         # source PDFs/html/json (reference)
-  ├── db*/                # vector DBs (gitignored)
+  ├── corpus/        # supporting docs (text)
+  ├── raw_corpus/    # source PDFs/html/json (reference only)
+  ├── db*/           # vector DBs (gitignored)
   └── documents.json
 output/
-  ├── evaluation/         # six required eval TSVs
-  ├── prediction/         # six required prediction TSVs
-  └── */ablation/         # ablations isolated
+  ├── evaluation/    # six required eval TSVs
+  ├── prediction/    # six required prediction TSVs
+  └── */ablation/    # ablations isolated
 src/
-  ├── rag_pipeline.py     # embed / infer CLI
-  ├── evaluate.py         # eval CLI (LLM-as-judge + F1/Recall/EM)
-  ├── llm/llm.py          # prompts for None/RAG
-  ├── rag/…               # retriever / db stack
-  └── data/               # scraper utilities (kept)
+  ├── rag_pipeline.py
+  ├── evaluate.py
+  ├── llm/llm.py
+  ├── rag/...
+  └── data/ (scraper utilities kept)
 requirements.txt
 setup.sh
 ```
@@ -91,15 +91,10 @@ python3 src/evaluate.py \
   --reference data/answer.tsv \
   --output output/evaluation/azure_gpt-5-mini.tsv
 ```
-- Eval TSV columns (e.g., `azure_qwen.tsv`): LLM-as-judge, F1, Recall, EM (in that order per row).
-
-## Required outputs on disk
-- Predictions: `output/prediction/{None_qwen,None_gpt-5-mini,minilm6_qwen,minilm6_gpt-5-mini,azure_qwen,azure_gpt-5-mini}.tsv`
-- Evaluations: same names under `output/evaluation/`
-- Ablations: under `output/*/ablation/`
 
 ## Notes
+- Required TSVs kept at top-level output; ablations isolated under `output/*/ablation/`.
 - Vector DBs under `data/db*` are gitignored.
-- Raw PDFs/HTML kept in `data/raw_corpus/` for provenance.
-- CLIs validated with `--help` (no API calls). Set API keys before running inference/eval.
+- Raw PDFs/HTML live in `data/raw_corpus/` (not needed to run).
+- CLIs tested with `--help` (no API calls). Ensure API keys before inference/eval.
 

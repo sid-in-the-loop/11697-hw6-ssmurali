@@ -58,3 +58,9 @@ class LLMConfig:
     model: str = "gpt-5-mini"
     key: str = ""
 
+
+@dataclass
+class Config:
+    rag_config: RAGConfig
+    llm_config: LLMConfig
+
